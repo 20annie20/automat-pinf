@@ -12,7 +12,7 @@ int main(){
 
         printf("wprowadz instrukcje: \n");
         while((c = getc(stdin)) != '\n'){
-        	if(c != '\ '){ 
+        	if(c != ' '){ 
 				instr[counter] = c;
 				counter++;
 			}
@@ -29,7 +29,7 @@ int main(){
         	
  	int state = 3;
 	char *str;
-	char diagram[MAX] = "q3";
+	char diagram[MAX*5] = "q3";
 	
 	int i = 0;
 	int true = 0;
